@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationUsageDescription</key>
-	<string></string>
+	<string>Allow Location Usage</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>Please allow location usage</string>
 	<key>CFBundleIdentifier</key>
 	<string>edu.northeastern.she0930she.Weather365</string>
 	<key>UIApplicationSceneManifest</key>

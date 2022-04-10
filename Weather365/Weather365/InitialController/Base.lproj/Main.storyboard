@@ -60,6 +60,11 @@
                                                     <action selector="getLocationAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TRi-gx-l1C"/>
                                                 </connections>
                                             </button>
+                                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yni-VH-U2J">
+                                                <rect key="frame" x="0.0" y="194" width="414" height="44"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </searchBar>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                         <constraints>
@@ -93,6 +98,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="World Weather" id="woC-f5-ynm"/>
                     <connections>
+                        <outlet property="searchBar" destination="yni-VH-U2J" id="YVf-8a-A9W"/>
                         <outlet property="tblView" destination="VrQ-of-xFk" id="oxj-xL-b4b"/>
                     </connections>
                 </viewController>
