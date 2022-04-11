@@ -12,8 +12,11 @@ class StockTableViewCell: UITableViewCell {
     
     @IBOutlet weak var lblName: UILabel!
     
-    var cityKey = ""
-    var cSymbol = ""
+    @IBOutlet weak var lblSymbol: UILabel!
+    
+    var sendStockDelegate : SendStockDelegate?
+    var symbol = ""
+    var cName = ""
     
 
     override func awakeFromNib() {
@@ -22,20 +25,22 @@ class StockTableViewCell: UITableViewCell {
     }
 
     @IBAction func getPriceAction(_ sender: Any) {
+        let url = getStockURL(symbol)
+        getStockData(url)
+            .done{stockModel in
+                self.sendStockDelegate?.sendStockData(StockModel)
+            }.catch { error in
+                print(error.localizedDescription)
+            }
         
-    }
-    
-    
-    
-    
-    
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
+//        getCurrentWeather(currentURL).done { currentWeatherModel in
+//            currentWeatherModel.city = self.city
+//            self.sendWeatherDelegate?.sendWeatherData(currentWeatherModel)
 //
-//        // Configure the view for the selected state
-//    }
-    
-    
-    
-    
+//        }
+//        .catch { error in
+//            print(error.localizedDescription)
+//        }
+    }
+     
 }

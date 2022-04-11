@@ -20,6 +20,7 @@
 		1850DB3D2803637E008B7D77 /* TableViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DB3C2803637E008B7D77 /* TableViewCode.swift */; };
 		1850DB4228036DC0008B7D77 /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DB4028036DC0008B7D77 /* StockTableViewCell.swift */; };
 		1850DB4328036DC0008B7D77 /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1850DB4128036DC0008B7D77 /* StockTableViewCell.xib */; };
+		1850DB452804BB99008B7D77 /* SendStockDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1850DB442804BB99008B7D77 /* SendStockDelegate.swift */; };
 		4D7EC243EA869A68FF1A7276 /* Pods_StockPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C40BBC7C955AF1402A5CEB /* Pods_StockPrice.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		1850DB3C2803637E008B7D77 /* TableViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCode.swift; sourceTree = "<group>"; };
 		1850DB4028036DC0008B7D77 /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
 		1850DB4128036DC0008B7D77 /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
+		1850DB442804BB99008B7D77 /* SendStockDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStockDelegate.swift; sourceTree = "<group>"; };
 		A8BFB3F62483C01E4FF8D49B /* Pods-StockPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockPrice.release.xcconfig"; path = "Target Support Files/Pods-StockPrice/Pods-StockPrice.release.xcconfig"; sourceTree = "<group>"; };
 		D29B65ECA51A9614D9F37837 /* Pods-StockPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockPrice.debug.xcconfig"; path = "Target Support Files/Pods-StockPrice/Pods-StockPrice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 			children = (
 				1850DB34280350F1008B7D77 /* APIKey.swift */,
 				1850DB3628035103008B7D77 /* APIUrl.swift */,
+				1850DB442804BB99008B7D77 /* SendStockDelegate.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				1850DB39280352AF008B7D77 /* StockModel.swift in Sources */,
 				1850DB1E28034B5E008B7D77 /* AppDelegate.swift in Sources */,
 				1850DB4228036DC0008B7D77 /* StockTableViewCell.swift in Sources */,
+				1850DB452804BB99008B7D77 /* SendStockDelegate.swift in Sources */,
 				1850DB3D2803637E008B7D77 /* TableViewCode.swift in Sources */,
 				1850DB35280350F1008B7D77 /* APIKey.swift in Sources */,
 				1850DB3B28035830008B7D77 /* NetworkingCalls.swift in Sources */,

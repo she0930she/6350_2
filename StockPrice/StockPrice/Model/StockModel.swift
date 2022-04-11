@@ -13,4 +13,9 @@ class StockModel{
     var price : Float = 0.00
     var dayLow : Float = 0.00
     var dayHigh : Float = 0.00
+    
+    init (_ companyName : String, _ symbol :String ){
+        self.name = companyName
+        self.symbol = symbol
+    }
 }
